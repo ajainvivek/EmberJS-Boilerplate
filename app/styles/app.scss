@@ -1,3 +1,15 @@
 @import "settings";
 
 @import "foundation";
+
+.content {
+  display: none;
+}
+
+.is-toggled .show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}

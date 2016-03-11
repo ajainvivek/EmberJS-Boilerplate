@@ -1,0 +1,17 @@
+<!-- <div class="collapse">
+  <div class="toggle" {{action "toggleContent"}}>
+    Toggle
+  </div>
+  <div {{bind-attr class=":content isToggled:show:hide"}}>
+    {{yield}}
+  </div>
+</div> -->
+
+<div class="collapse">
+  <div class="toggle" {{action "toggleContent"}}>
+    Toggle
+  </div>
+  <div class="content show">
+    {{yield}}
+  </div>
+</div>
